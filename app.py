@@ -9,7 +9,7 @@ import io
 load_dotenv()  
 
 # Configure Gemini API
-genai.configure(api_key='AIzaSyD_jsz3G3hieiQiwEOs52C7RRwQ4VHZlQA')
+genai.configure(api_key='GOOGLE_API_KEY')
 
 # Function to load Gemini Pro model and get responses
 model = genai.GenerativeModel('models/gemini-1.5-flash-latest')
